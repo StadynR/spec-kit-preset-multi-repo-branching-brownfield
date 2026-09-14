@@ -28,8 +28,7 @@ Follow the steps at https://github.com/Quratulain-bilal/spec-kit-brownfield#inst
 
 ```bash
 # Install from GitHub release
-specify preset add --from https://github.com/sakitA/spec-kit-preset-multi-repo-branching/archive/refs/tags/v1.0.0.zip
-
+specify preset add --from https://github.com/StadynR/spec-kit-preset-multi-repo-branching-brownfield/archive/refs/tags/v1.0.0.zip
 # Or install from local directory (for development)
 specify preset add --dev /path/to/spec-kit-preset-multi-repo-branching
 

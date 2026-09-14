@@ -1,12 +1,12 @@
 schema_version: "1.0"
 
 preset:
-  id: "multi-repo-branching"
-  name: "Multi-Repo Branching"
+  id: "multi-repo-branching-brownfield"
+  name: "Multi-Repo Branching with Brownfield Support"
   version: "1.0.0"
   description: "Coordinates feature branch creation across multiple git repositories (independent repos and submodules) during plan and tasks phases."
-  author: "sakitA"
-  repository: "https://github.com/sakitA/spec-kit-preset-multi-repo-branching"
+  author: "StadynR"
+  repository: "https://github.com/StadynR/spec-kit-preset-multi-repo-branching-brownfield"
   license: "MIT"
 
 requires:

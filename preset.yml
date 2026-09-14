@@ -26,6 +26,30 @@ provides:
       description: "Tasks command with multi-repo branch-creation task generation"
       replaces: "speckit.tasks"
 
+    - type: "command"
+      name: "speckit.brownfield.scan"
+      file: "commands/speckit.brownfield.scan.md"
+      description: "Brownfield scan with multi-repo discovery"
+      replaces: "speckit.brownfield.scan"
+
+    - type: "command"
+      name: "speckit.brownfield.bootstrap"
+      file: "commands/speckit.brownfield.bootstrap.md"
+      description: "Brownfield bootstrap with multi-repo configuration"
+      replaces: "speckit.brownfield.bootstrap"
+
+    - type: "command"
+      name: "speckit.brownfield.validate"
+      file: "commands/speckit.brownfield.validate.md"
+      description: "Brownfield validation with multi-repo checks"
+      replaces: "speckit.brownfield.validate"
+
+    - type: "command"
+      name: "speckit.brownfield.migrate"
+      file: "commands/speckit.brownfield.migrate.md"
+      description: "Brownfield migration with multi-repo scope tracking"
+      replaces: "speckit.brownfield.migrate"
+
 tags:
   - "multi-repo-branching"
   - "multi-module"
